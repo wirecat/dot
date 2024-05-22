@@ -1,11 +1,24 @@
 #!/usr/bin/env bash
 
+# Appends to the .bashrc
 cat <<EOF >> ~/.bashrc
 
 # wirecat specific setup start
 
-set -o vi  # add this line
-bind 'set show-mode-in-prompt on'
+# Use vim mode
+set -o vi
+
+# wirecat specific setup end
+
+EOF
+
+# Appends to the .inputrc
+cat <<EOF >> ~/.inputrc
+
+# wirecat specific setup start
+
+set keyseq-timeout 50
+set show-mode-in-prompt on
 
 # wirecat specific setup end
 
