@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+cat <<EOF >> ~/.bashrc
+
+# wirecat specific setup start
+
+set -o vi  # add this line
+bind 'set show-mode-in-prompt on'
+
+# wirecat specific setup end
+
+EOF
