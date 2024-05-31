@@ -1,25 +1,25 @@
 #!/usr/bin/env bash
 
-# Appends to the .bashrc
-cat <<EOF >> ~/.bashrc
+# # Appends to the .bashrc
+# cat <<EOF >> ~/.bashrc
 
-# wirecat specific setup start
+# # wirecat specific setup start
 
-# Use vim mode
-set -o vi
+# # Use vim mode
+# set -o vi
 
-# wirecat specific setup end
+# # wirecat specific setup end
 
-EOF
+# EOF
 
-# Appends to the .inputrc
-cat <<EOF >> ~/.inputrc
+# # Appends to the .inputrc
+# cat <<EOF >> ~/.inputrc
 
-# wirecat specific setup start
+# # wirecat specific setup start
 
-set keyseq-timeout 50
-set show-mode-in-prompt on
+# set keyseq-timeout 50
+# set show-mode-in-prompt on
 
-# wirecat specific setup end
+# # wirecat specific setup end
 
-EOF
+# EOF
